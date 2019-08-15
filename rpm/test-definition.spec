@@ -9,6 +9,7 @@ URL:		https://github.com/mer-tools/test-definition
 Source0:	%{name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRequires:	groff
 
 %package tests
 Summary: Acceptance tests for schemas in package test-definition
